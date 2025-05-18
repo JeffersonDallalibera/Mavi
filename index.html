@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosso Amor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background"></div>
+  <header>
+    <h1>Nosso Amor</h1>
+  </header>
+
+  <section class="spotify">
+    <h2>Nossa música</h2>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6ccKu0LwJzOhLAxBwP2PTk?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </section>
+
+  <section class="carousel">
+    <div class="photo-container" id="carrossel-dinamico"></div>
+  </section>
+
+  <section class="timeline" id="timeline">
+    <h2>Nossa História</h2>
+    <ul id="timeline-dinamica"></ul>
+  </section>
+  
+  <section id="foto-exibida" class="foto-exibida hidden">
+    <img id="imagem-momento" src="" alt="Momento especial">
+    <p id="legenda-momento"></p>
+  </section>
+
+  <section class="contador">
+    <h2>Estamos juntos há:</h2>
+    <div id="contador"></div>
+  </section>
+
+  <section class="carta">
+    <h2>Para você, mavi</h2>
+    <button onclick="mostrarCarta()">Clique para ler</button>
+    <div id="mensagemCarta" class="hidden">
+      <p>Amor, feliz 3 meses de namoro! 🎉❤️ Este site foi criado com todo o carinho do meu coração, pensando só em você... 💫<br>
+        Sei que nem sempre sou perfeito e, por isso, peço desculpas por qualquer momento que te tenha magoado. Meu amor por você é maior que qualquer erro, e cada instante ao seu lado é um presente único e inesquecível. 🌹🙏<br>
+        Espero que essa surpresa consiga mostrar um pedacinho do quanto você é essencial para mim, da imensidão do meu amor e da vontade de te fazer feliz todos os dias. Você é minha luz e minha inspiração. ✨💖<br>
+        Você sempre será a minha escolha, meu maior amor. Eu te amo, Mavi. ❤️</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
